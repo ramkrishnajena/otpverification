@@ -1,0 +1,54 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.phone-verification-popup {
+  position: absolute;
+  width: 31.25rem;
+  height: 31.25rem;
+  background-color: #fff;
+  box-shadow: 0.5px 0.5px 0.5px 1px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phone-verification-popup > h2 {
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 0.5px solid grey;
+}
+input {
+  outline: none;
+  border: none;
+}
+.otp-input-container input {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  font-size: 24px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.resend-otp {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.phone-verification-popup button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #6db58a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.phone-verification-popup button:hover {
+  background-color: #80fa1c;
+}

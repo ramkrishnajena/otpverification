@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./styles.css";
+import "./style.css";
 import SubmitOtp from "./SubmitOtp";
 
 export default function App() {
